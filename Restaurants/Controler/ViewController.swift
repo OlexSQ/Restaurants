@@ -18,16 +18,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.navigationBar.barTintColor = UIColor.orange
-        
+        navigationController?.navigationBar.barTintColor = UIColor(red: 250.0 / 255.0, green: 81.0 / 255.0, blue: 12.0 / 255.0, alpha: 0.9)
+       
         data = [RestaurantsData(image: UIImage(named: "scorini")!, name: "Scorini", details: "Architect Pauchenko Street, 28"), RestaurantsData(image: UIImage(named: "zirka")!, name: "Zirka", details: "Shevchenko street, 1B"), RestaurantsData(image: UIImage(named: "sorento")!, name: "Sorento", details: "Architect Pauchenko Street, 46"), RestaurantsData(image: UIImage(named: "prima")!, name: "Prima", details: "Architect Pauchenko Street, 17/7"), RestaurantsData(image: UIImage(named: "fransua")!, name: "Fransua", details: "No information"), RestaurantsData(image: UIImage(named: "garden")!, name: "Family Garden", details: "Street Velyka Prospektovna, 34/32")]
 
         
         // Setup the Search Controller
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search Restaurants"
-        navigationItem.searchController = searchController
+        searchController.searchBar.tintColor = UIColor.white
+        searchController.searchBar.placeholder = "Search"
+        self.tableView.tableHeaderView = searchController.searchBar
+        searchController.searchBar.backgroundImage = UIImage()
+      
         definesPresentationContext = true
         
         tableView.dataSource = self
@@ -77,6 +80,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         } else {
             data = self.data[indexPath.row]
         }
+        
+        cell.myImageView.clipsToBounds = true
+        cell.myImageView.layer.cornerRadius = 8.0
         
         cell.myImageView.image = data.image
         cell.nameLabel.text = data.name

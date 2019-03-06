@@ -21,7 +21,6 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         detailImageView.image = image
         detailsLabel.text = label
-        
     }
     
 }

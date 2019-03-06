@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9eX-BP-tji">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9eX-BP-tji">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -26,39 +26,38 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MK9-pP-sZQ" id="kxD-eu-Q8d">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SKQ-uf-g0Q">
-                                                    <rect key="frame" x="5" y="5" width="90" height="90"/>
+                                                    <rect key="frame" x="5" y="5" width="107" height="90"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="90" id="PqT-qU-4do"/>
-                                                        <constraint firstAttribute="width" constant="90" id="clQ-nH-mRj"/>
+                                                        <constraint firstAttribute="width" constant="107" id="clQ-nH-mRj"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1T-yl-cAp">
-                                                    <rect key="frame" x="103" y="16" width="257" height="30"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1T-yl-cAp">
+                                                    <rect key="frame" x="120" y="28" width="240" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPI-RW-fas">
-                                                    <rect key="frame" x="103" y="54.5" width="257" height="19.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPI-RW-fas">
+                                                    <rect key="frame" x="120" y="50.5" width="240" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.56198543310165405" green="0.58759588003158569" blue="0.62292152643203735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="vPI-RW-fas" firstAttribute="top" secondItem="A1T-yl-cAp" secondAttribute="bottom" constant="8.5" id="4Aa-V2-RlH"/>
+                                                <constraint firstItem="vPI-RW-fas" firstAttribute="top" secondItem="A1T-yl-cAp" secondAttribute="bottom" constant="-1" id="4Aa-V2-RlH"/>
                                                 <constraint firstAttribute="trailing" secondItem="vPI-RW-fas" secondAttribute="trailing" constant="15" id="IZu-dJ-BsX"/>
                                                 <constraint firstItem="vPI-RW-fas" firstAttribute="leading" secondItem="SKQ-uf-g0Q" secondAttribute="trailing" constant="8" id="PAU-Bp-3Wm"/>
                                                 <constraint firstItem="SKQ-uf-g0Q" firstAttribute="top" secondItem="kxD-eu-Q8d" secondAttribute="top" constant="5" id="Q6v-Sd-oTQ"/>
                                                 <constraint firstAttribute="bottom" secondItem="SKQ-uf-g0Q" secondAttribute="bottom" constant="5" id="RG7-L4-OQw"/>
                                                 <constraint firstItem="A1T-yl-cAp" firstAttribute="leading" secondItem="SKQ-uf-g0Q" secondAttribute="trailing" constant="8" id="Tcb-wG-QEC"/>
-                                                <constraint firstItem="A1T-yl-cAp" firstAttribute="top" secondItem="kxD-eu-Q8d" secondAttribute="topMargin" constant="5" id="lb9-SY-moi"/>
+                                                <constraint firstItem="A1T-yl-cAp" firstAttribute="top" secondItem="kxD-eu-Q8d" secondAttribute="topMargin" constant="17" id="lb9-SY-moi"/>
                                                 <constraint firstItem="SKQ-uf-g0Q" firstAttribute="leading" secondItem="kxD-eu-Q8d" secondAttribute="leading" constant="5" id="nPH-NC-aUZ"/>
-                                                <constraint firstAttribute="bottom" secondItem="vPI-RW-fas" secondAttribute="bottom" id="uBt-5n-te0"/>
+                                                <constraint firstAttribute="bottom" secondItem="vPI-RW-fas" secondAttribute="bottom" constant="29" id="uBt-5n-te0"/>
                                                 <constraint firstItem="A1T-yl-cAp" firstAttribute="trailing" secondItem="kxD-eu-Q8d" secondAttribute="trailingMargin" id="usI-5B-ivL"/>
                                             </constraints>
                                         </tableViewCellContentView>
