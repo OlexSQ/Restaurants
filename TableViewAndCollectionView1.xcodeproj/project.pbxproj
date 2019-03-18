@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		04686E60222DA222008AD4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E5F222DA222008AD4C2 /* AppDelegate.swift */; };
-		04686E62222DA223008AD4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E61222DA223008AD4C2 /* ViewController.swift */; };
+		04686E62222DA223008AD4C2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E61222DA223008AD4C2 /* TableViewController.swift */; };
 		04686E65222DA223008AD4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04686E63222DA223008AD4C2 /* Main.storyboard */; };
 		04686E67222DA225008AD4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04686E66222DA225008AD4C2 /* Assets.xcassets */; };
 		04686E6A222DA225008AD4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04686E68222DA225008AD4C2 /* LaunchScreen.storyboard */; };
 		04686E76222DAF22008AD4C2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */; };
-		04686E79222DB457008AD4C2 /* RestaurantsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E78222DB457008AD4C2 /* RestaurantsData.swift */; };
+		0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF89223F276A00E5D81F /* MainViewController.swift */; };
+		0491BF8C223F2EEB00E5D81F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */; };
 		04F82027222DFC0F008DA0B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82026222DFC0F008DA0B2 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04686E5C222DA222008AD4C2 /* Restaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04686E5C222DA222008AD4C2 /* TableViewAndCollectionView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAndCollectionView1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04686E5F222DA222008AD4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04686E61222DA223008AD4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04686E61222DA223008AD4C2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		04686E64222DA223008AD4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04686E66222DA225008AD4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04686E69222DA225008AD4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04686E6B222DA225008AD4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
-		04686E78222DB457008AD4C2 /* RestaurantsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsData.swift; sourceTree = "<group>"; };
+		0491BF89223F276A00E5D81F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		04F82026222DFC0F008DA0B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +46,7 @@
 		04686E53222DA222008AD4C2 = {
 			isa = PBXGroup;
 			children = (
-				04686E5E222DA222008AD4C2 /* Restaurants */,
+				04686E5E222DA222008AD4C2 /* TableViewAndCollectionView1 */,
 				04686E5D222DA222008AD4C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +54,12 @@
 		04686E5D222DA222008AD4C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04686E5C222DA222008AD4C2 /* Restaurants.app */,
+				04686E5C222DA222008AD4C2 /* TableViewAndCollectionView1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04686E5E222DA222008AD4C2 /* Restaurants */ = {
+		04686E5E222DA222008AD4C2 /* TableViewAndCollectionView1 */ = {
 			isa = PBXGroup;
 			children = (
 				04686E71222DAA08008AD4C2 /* View */,
@@ -68,7 +70,7 @@
 				04686E5F222DA222008AD4C2 /* AppDelegate.swift */,
 				04686E6B222DA225008AD4C2 /* Info.plist */,
 			);
-			path = Restaurants;
+			path = TableViewAndCollectionView1;
 			sourceTree = "<group>";
 		};
 		04686E71222DAA08008AD4C2 /* View */ = {
@@ -83,7 +85,9 @@
 		04686E72222DAA2C008AD4C2 /* Controler */ = {
 			isa = PBXGroup;
 			children = (
-				04686E61222DA223008AD4C2 /* ViewController.swift */,
+				0491BF89223F276A00E5D81F /* MainViewController.swift */,
+				04686E61222DA223008AD4C2 /* TableViewController.swift */,
+				0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */,
 				04F82026222DFC0F008DA0B2 /* DetailsViewController.swift */,
 			);
 			path = Controler;
@@ -92,7 +96,6 @@
 		04686E73222DAA4A008AD4C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				04686E78222DB457008AD4C2 /* RestaurantsData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04686E5B222DA222008AD4C2 /* Restaurants */ = {
+		04686E5B222DA222008AD4C2 /* TableViewAndCollectionView1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04686E6E222DA225008AD4C2 /* Build configuration list for PBXNativeTarget "Restaurants" */;
+			buildConfigurationList = 04686E6E222DA225008AD4C2 /* Build configuration list for PBXNativeTarget "TableViewAndCollectionView1" */;
 			buildPhases = (
 				04686E58222DA222008AD4C2 /* Sources */,
 				04686E59222DA222008AD4C2 /* Frameworks */,
@@ -112,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = Restaurants;
+			name = TableViewAndCollectionView1;
 			productName = Restaurants;
-			productReference = 04686E5C222DA222008AD4C2 /* Restaurants.app */;
+			productReference = 04686E5C222DA222008AD4C2 /* TableViewAndCollectionView1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04686E57222DA222008AD4C2 /* Build configuration list for PBXProject "Restaurants" */;
+			buildConfigurationList = 04686E57222DA222008AD4C2 /* Build configuration list for PBXProject "TableViewAndCollectionView1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04686E5B222DA222008AD4C2 /* Restaurants */,
+				04686E5B222DA222008AD4C2 /* TableViewAndCollectionView1 */,
 			);
 		};
 /* End PBXProject section */
@@ -168,9 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04686E62222DA223008AD4C2 /* ViewController.swift in Sources */,
+				0491BF8C223F2EEB00E5D81F /* CollectionViewController.swift in Sources */,
+				04686E62222DA223008AD4C2 /* TableViewController.swift in Sources */,
 				04686E60222DA222008AD4C2 /* AppDelegate.swift in Sources */,
-				04686E79222DB457008AD4C2 /* RestaurantsData.swift in Sources */,
+				0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */,
 				04686E76222DAF22008AD4C2 /* MyTableViewCell.swift in Sources */,
 				04F82027222DFC0F008DA0B2 /* DetailsViewController.swift in Sources */,
 			);
@@ -319,12 +323,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Restaurants/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TableViewAndCollectionView1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.Restaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TableViewAndCollectionView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,12 +341,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Restaurants/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TableViewAndCollectionView1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = example.com.Restaurants;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.TableViewAndCollectionView1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04686E57222DA222008AD4C2 /* Build configuration list for PBXProject "Restaurants" */ = {
+		04686E57222DA222008AD4C2 /* Build configuration list for PBXProject "TableViewAndCollectionView1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04686E6C222DA225008AD4C2 /* Debug */,
@@ -360,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04686E6E222DA225008AD4C2 /* Build configuration list for PBXNativeTarget "Restaurants" */ = {
+		04686E6E222DA225008AD4C2 /* Build configuration list for PBXNativeTarget "TableViewAndCollectionView1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04686E6F222DA225008AD4C2 /* Debug */,
