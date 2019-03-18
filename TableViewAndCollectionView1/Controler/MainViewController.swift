@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  Restaurants
+//  TableViewAndCollectionView1
 //
 //  Created by mac on 18.03.2019.
 //  Copyright © 2019 Oleg_Psiarovsky. All rights reserved.
