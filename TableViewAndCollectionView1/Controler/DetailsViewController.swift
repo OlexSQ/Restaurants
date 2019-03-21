@@ -19,8 +19,8 @@ class DetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        detailImageView.image = image
-        detailsLabel.text = label
+        detailImageView.backgroundColor = UIColor.green
+        detailsLabel.text = "Минимальная зарплата в Украине должна возрасти с нынешних 150 долларов до 300 долларов. Это является задачей Кабинета Министров"
     }
     
 }

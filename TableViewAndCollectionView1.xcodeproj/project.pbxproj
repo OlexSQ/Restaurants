@@ -15,6 +15,7 @@
 		04686E76222DAF22008AD4C2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */; };
 		0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF89223F276A00E5D81F /* MainViewController.swift */; };
 		0491BF8C223F2EEB00E5D81F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */; };
+		04E1C5E22241FA5300CEA9CC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C5E12241FA5300CEA9CC /* MyCollectionViewCell.swift */; };
 		04F82027222DFC0F008DA0B2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F82026222DFC0F008DA0B2 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		0491BF89223F276A00E5D81F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		04E1C5E12241FA5300CEA9CC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		04F82026222DFC0F008DA0B2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 			children = (
 				04686E63222DA223008AD4C2 /* Main.storyboard */,
 				04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */,
+				04E1C5E12241FA5300CEA9CC /* MyCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0491BF8C223F2EEB00E5D81F /* CollectionViewController.swift in Sources */,
+				04E1C5E22241FA5300CEA9CC /* MyCollectionViewCell.swift in Sources */,
 				04686E62222DA223008AD4C2 /* TableViewController.swift in Sources */,
 				04686E60222DA222008AD4C2 /* AppDelegate.swift in Sources */,
 				0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */,
