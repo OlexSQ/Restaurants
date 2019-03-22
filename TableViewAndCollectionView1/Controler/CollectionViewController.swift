@@ -55,6 +55,9 @@ class CollectionViewController: UICollectionViewController {
         } else {
             cell.contentView.backgroundColor = UIColor(red: 190.0 / 255.0, green: 177.0 / 255.0, blue: 206.0 / 255.0, alpha: 1.0)
         }
+        cell.contentView.clipsToBounds = true
+        cell.contentView.layer.cornerRadius = 10.0
+        
         cell.myImageView.clipsToBounds = true
         cell.myImageView.layer.cornerRadius = 40.0
         

@@ -94,12 +94,12 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1T-yl-cAp">
-                                                    <rect key="frame" x="120" y="5" width="465" height="30"/>
+                                                    <rect key="frame" x="120" y="5" width="240" height="30"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPI-RW-fas">
-                                                    <rect key="frame" x="120" y="35" width="465" height="60"/>
+                                                    <rect key="frame" x="120" y="35" width="240" height="60"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <color key="textColor" red="0.56198543310165405" green="0.58759588003158569" blue="0.62292152643203735" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -151,7 +151,7 @@
         <scene sceneID="TwF-wp-cJJ">
             <objects>
                 <viewController id="lWH-8Y-nqA" customClass="DetailsViewController" customModule="TableViewAndCollectionView1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="REB-oq-U9e" customClass="d">
+                    <view key="view" contentMode="scaleToFill" id="REB-oq-U9e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -161,8 +161,8 @@
                                     <constraint firstAttribute="height" constant="260" id="x6S-KQ-8Ex"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUY-o2-jdB">
-                                <rect key="frame" x="16" y="309" width="343" height="216"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUY-o2-jdB">
+                                <rect key="frame" x="16" y="333" width="343" height="192"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -176,7 +176,7 @@
                             <constraint firstItem="ABk-Oh-2ql" firstAttribute="leading" secondItem="Ged-Nu-8Mh" secondAttribute="leading" constant="16" id="cVo-0v-OmY"/>
                             <constraint firstItem="ABk-Oh-2ql" firstAttribute="top" secondItem="Ged-Nu-8Mh" secondAttribute="top" constant="21" id="hso-kQ-t0R"/>
                             <constraint firstItem="WUY-o2-jdB" firstAttribute="leading" secondItem="Ged-Nu-8Mh" secondAttribute="leading" constant="16" id="kXg-e7-A0e"/>
-                            <constraint firstItem="WUY-o2-jdB" firstAttribute="top" secondItem="ABk-Oh-2ql" secondAttribute="bottom" constant="8" id="xB2-6B-Z9Z"/>
+                            <constraint firstItem="WUY-o2-jdB" firstAttribute="top" secondItem="ABk-Oh-2ql" secondAttribute="bottom" constant="32" id="xB2-6B-Z9Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ged-Nu-8Mh"/>
                     </view>
@@ -187,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CYu-KF-8e3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3169" y="127"/>
+            <point key="canvasLocation" x="3168.8000000000002" y="126.38680659670166"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d7z-hD-B2v">

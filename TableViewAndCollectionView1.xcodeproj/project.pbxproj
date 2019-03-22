@@ -13,6 +13,7 @@
 		04686E67222DA225008AD4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04686E66222DA225008AD4C2 /* Assets.xcassets */; };
 		04686E6A222DA225008AD4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04686E68222DA225008AD4C2 /* LaunchScreen.storyboard */; };
 		04686E76222DAF22008AD4C2 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */; };
+		0486E69C2244AD7C004A49B1 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486E69B2244AD7C004A49B1 /* Article.swift */; };
 		0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF89223F276A00E5D81F /* MainViewController.swift */; };
 		0491BF8C223F2EEB00E5D81F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */; };
 		04E1C5E22241FA5300CEA9CC /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1C5E12241FA5300CEA9CC /* MyCollectionViewCell.swift */; };
@@ -28,6 +29,7 @@
 		04686E69222DA225008AD4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04686E6B222DA225008AD4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04686E74222DAF22008AD4C2 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		0486E69B2244AD7C004A49B1 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		0491BF89223F276A00E5D81F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0491BF8B223F2EEB00E5D81F /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		04E1C5E12241FA5300CEA9CC /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		04686E73222DAA4A008AD4C2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0486E69B2244AD7C004A49B1 /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				04E1C5E22241FA5300CEA9CC /* MyCollectionViewCell.swift in Sources */,
 				04686E62222DA223008AD4C2 /* TableViewController.swift in Sources */,
 				04686E60222DA222008AD4C2 /* AppDelegate.swift in Sources */,
+				0486E69C2244AD7C004A49B1 /* Article.swift in Sources */,
 				0491BF8A223F276A00E5D81F /* MainViewController.swift in Sources */,
 				04686E76222DAF22008AD4C2 /* MyTableViewCell.swift in Sources */,
 				04F82027222DFC0F008DA0B2 /* DetailsViewController.swift in Sources */,
