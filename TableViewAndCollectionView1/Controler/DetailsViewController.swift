@@ -11,22 +11,20 @@ import UIKit
 class DetailsViewController: UIViewController {
     
     @IBOutlet weak var detailImageView: UIImageView!
-    
-    @IBOutlet weak var detailsLabel: UILabel!
-    
-    var image: UIImage?
+    @IBOutlet weak var textView: UITextView!
+    var imageUrl: String?
     var label: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         detailImageView.layer.cornerRadius = 15.0
-        detailsLabel.layer.borderColor = UIColor.lightGray.cgColor
-        detailsLabel.layer.borderWidth = 2.0
-        detailsLabel.layer.cornerRadius = 15.0
-        detailImageView.backgroundColor = UIColor.green
-        detailsLabel.text = "Минимальная зарплата в Украине должна возрасти с нынешних 150 долларов до 300 долларов. Это является задачей Кабинета Министров"
-        
-        navigationItem.leftBarButtonItem?.title = "<Back"
+        detailImageView.clipsToBounds = true
+        textView.layer.borderColor = UIColor.lightGray.cgColor
+        textView.layer.borderWidth = 2.0
+        textView.layer.cornerRadius = 15.0
+        detailImageView.downloadImage(from: imageUrl!)
+        textView.text = label        
     }
+    
     
 }
